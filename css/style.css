@@ -188,3 +188,40 @@ a{
     color: #f5f5f5;
     border: 0;
 }
+
+.sidebar{
+    margin-bottom: 1rem;
+}
+
+.sidebar .widget {
+    margin-bottom: 3rem;
+}
+
+.sidebar ul {
+    padding; 0;
+    list-style: none;
+}
+
+.sidebar li{
+    margin-bottom: .5rem;
+}
+
+.sidebar li a{
+    color: #d4d4d4;
+}
+.sidebar li a:hover {
+    text-decoration: none;
+    border-bottom: 1px dotted #d1d1d1;
+}
+
+.sidebar img{
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.sidebar img:hover{
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
