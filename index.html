@@ -23,7 +23,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-
+<!-- Navbar -->
         <nav class="navbar">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,7 +35,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">Darush Portfolio</a>
-            </div>
+            </div><!-- /.navbar-header -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,6 +49,7 @@
           </div><!-- /.container-fluid -->
         </nav>
 
+<!-- Introduction -->
         <div class="container-fluid text-center">
             <div class="jumbotron">
                 <div class="row">
@@ -61,62 +62,59 @@
                 </div>
             </div>
         </div>
-
+<!-- Portfolio Nav -->
         <div class="container-fluid filterable-portfolio">
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="nav nav-pills">
+                    <ul class="nav nav-pills portfolio-filter">
                         <li class="portfolio-title">Filter by:</li>
-                        <li role="presentation" class="active"><a href="#">All</a></li>
-                        <li role="presentation"><a href="#">Animation</a></li>
-                        <li role="presentation"><a href="#">Design</a></li>
-                        <li role="presentation"><a href="#">Photography</a></li>
-                        <li role="presentation"><a href="#">Web</a></li>
+                        <li role="presentation" class="active"><a href="#" data-filter="*">All</a></li>
+                        <li role="presentation"><a href="#" data-filter=".animation">Animation</a></li>
+                        <li role="presentation"><a href="#" data-filter=".design">Design</a></li>
+                        <li role="presentation"><a href="#" data-filter=".photography">Photography</a></li>
+                        <li role="presentation"><a href="#" data-filter=".web">Web</a></li>
                     </ul>
                 </div>
             </div>
-
+            <!-- Portfolio Items Row -->
             <div class="row portfolio-items">
-                <div class="portfolio-item col-sm-4">
+                <div class="portfolio-item col-sm-4 animation">
                     <a href="#">
                         <img src="http://placekitten.com/700/400" class="img-responsive">
                     </a>
                 </div>
-                <div class="portfolio-item col-sm-4">
+                <div class="portfolio-item col-sm-4 design">
                     <a href="#">
                         <img src="http://placekitten.com/701/400" class="img-responsive">
                     </a>
                 </div>
-                <div class="portfolio-item col-sm-4">
+                <div class="portfolio-item col-sm-4 photography design">
                     <a href="#">
-                        <img src="http://placekitten.com/702/400" class="img-responsive">
+                        <img src="http://placekitten.com/700/400" class="img-responsive">
                     </a>
                 </div>
-            </div>
-            <div class="row portfolio-items">
-                <div class="portfolio-item col-sm-4">
+                <div class="portfolio-item col-sm-4 photography">
                     <a href="#">
                         <img src="http://placekitten.com/703/400" class="img-responsive">
                     </a>
                 </div>
-                <div class="portfolio-item col-sm-4">
+                <div class="portfolio-item col-sm-4 web">
                     <a href="#">
                         <img src="http://placekitten.com/704/400" class="img-responsive">
                     </a>
                 </div>
-                <div class="portfolio-item col-sm-4">
+                <div class="portfolio-item col-sm-4 design">
                     <a href="#">
                         <img src="http://placekitten.com/705/400" class="img-responsive">
                     </a>
                 </div>
-            </div>
-        </div>
+            </div><!-- End Portfolio Items Row -->
+        </div><!-- End Portfolio Nav -->
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js">
-
-        </script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
