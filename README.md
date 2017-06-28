@@ -1,5 +1,5 @@
 # portfolio1
-Design a responsive portfolio using Bootstrap
+Design a responsive portfolio using Bootstrap. Isotope Javascript library is used to filter out the portfolio.
 
 ![Image](../master/img/screenshot1.png)
 
